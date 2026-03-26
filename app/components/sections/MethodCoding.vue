@@ -57,6 +57,11 @@
 
     </div>
 
+    <!-- CTA -->
+    <div class="relative z-10 flex justify-center mt-16">
+      <UiButtonAction text="Começar Agora" />
+    </div>
+
   </section>
 </template>
 
@@ -65,6 +70,7 @@ import { ref } from 'vue'
 import UiBadge from '~/components/ui/Badge.vue'
 import UiChatPrompt from '~/components/ui/ChatPrompt.vue'
 import UiFolderTree from '~/components/ui/FolderTree.vue'
+import UiButtonAction from '~/components/ui/ButtonAction.vue'
 import { useReveal } from '~/composables/useReveal'
 
 const el = ref<HTMLElement | null>(null)

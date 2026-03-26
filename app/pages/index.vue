@@ -4,6 +4,7 @@
     <SectionsMethod />
     <SectionsVibeCoding />
     <SectionsMethodCoding />
+    <SectionsPossibilities />
   </main>
 </template>
 
@@ -12,4 +13,5 @@ import SectionsHero from '~/components/sections/Hero.vue'
 import SectionsMethod from '~/components/sections/Method.vue'
 import SectionsVibeCoding from '~/components/sections/VibeCoding.vue'
 import SectionsMethodCoding from '~/components/sections/MethodCoding.vue'
+import SectionsPossibilities from '~/components/sections/Possibilities.vue'
 </script>
