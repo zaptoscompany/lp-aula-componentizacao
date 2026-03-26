@@ -8,6 +8,7 @@
     <SectionsCurriculum />
     <SectionsTestimonials />
     <SectionsCheckout />
+    <SectionsFaq />
   </main>
 </template>
 
@@ -19,5 +20,6 @@ import SectionsMethodCoding from '~/components/sections/MethodCoding.vue'
 import SectionsPossibilities from '~/components/sections/Possibilities.vue'
 import SectionsCurriculum from '~/components/sections/Curriculum.vue'
 import SectionsTestimonials from '~/components/sections/Testimonials.vue'
+import SectionsFaq from '~/components/sections/Faq.vue'
 import SectionsCheckout from '~/components/sections/Checkout.vue'
 </script>
