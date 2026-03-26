@@ -1,5 +1,9 @@
 <template>
-  <section class="relative overflow-hidden bg-background py-24 px-6">
+  <section
+    ref="el"
+    class="relative overflow-hidden bg-background py-24 px-6 transition-all duration-700 ease-out"
+    :class="visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'"
+  >
 
     <!-- Fundo -->
     <div class="absolute inset-0 bg-gradient-dark" />
@@ -37,4 +41,9 @@
 <script setup lang="ts">
 import UiBadge from '~/components/ui/Badge.vue'
 import UiAppMockup from '~/components/ui/AppMockup.vue'
+import { ref } from 'vue'
+import { useReveal } from '~/composables/useReveal'
+
+const el = ref<HTMLElement | null>(null)
+const visible = useReveal(el)
 </script>
