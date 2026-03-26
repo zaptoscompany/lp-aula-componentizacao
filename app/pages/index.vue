@@ -9,6 +9,8 @@
     <SectionsTestimonials />
     <SectionsCheckout />
     <SectionsFaq />
+    <SectionsFooter />
+    <UiWhatsappButton />
   </main>
 </template>
 
@@ -22,4 +24,6 @@ import SectionsCurriculum from '~/components/sections/Curriculum.vue'
 import SectionsTestimonials from '~/components/sections/Testimonials.vue'
 import SectionsFaq from '~/components/sections/Faq.vue'
 import SectionsCheckout from '~/components/sections/Checkout.vue'
+import SectionsFooter from '~/components/sections/Footer.vue'
+import UiWhatsappButton from '~/components/ui/WhatsappButton.vue'
 </script>
