@@ -47,7 +47,7 @@
       />
 
       <!-- CTA -->
-      <UiButtonAction text="Começar Agora" />
+      <UiButtonAction text="Começar Agora" scroll-to="checkout" />
 
     </div>
 

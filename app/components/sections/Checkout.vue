@@ -1,5 +1,6 @@
 <template>
   <section
+    id="checkout"
     ref="el"
     class="relative overflow-hidden bg-background py-24 px-6 transition-all duration-700 ease-out"
     :class="visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'"

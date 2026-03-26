@@ -59,7 +59,7 @@
 
     <!-- CTA -->
     <div class="relative z-10 flex justify-center mt-16">
-      <UiButtonAction text="Começar Agora" />
+      <UiButtonAction text="Começar Agora" scroll-to="checkout" />
     </div>
 
   </section>
