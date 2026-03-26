@@ -33,6 +33,7 @@
           :index="section.index"
           :title="section.title"
           :modules="section.modules"
+          :recording="section.recording"
         />
       </div>
 
@@ -50,7 +51,7 @@ import { useReveal } from '~/composables/useReveal'
 const el = ref<HTMLElement | null>(null)
 const visible = useReveal(el)
 
-const curriculum = [
+const curriculum: { index: string; title: string; recording?: boolean; modules: { code: string; title: string; description: string }[] }[] = [
   {
     index: '01',
     title: 'Fundamentos Teóricos',
@@ -107,6 +108,7 @@ const curriculum = [
   {
     index: '04',
     title: 'Backend e Assinaturas',
+    recording: true,
     modules: [
       {
         code: '4.1',
@@ -133,6 +135,7 @@ const curriculum = [
   {
     index: '05',
     title: 'Publicação e Manutenção',
+    recording: true,
     modules: [
       {
         code: '5.1',
@@ -144,6 +147,7 @@ const curriculum = [
   {
     index: '06',
     title: 'Projeto Final do Curso',
+    recording: true,
     modules: [
       {
         code: '6.1',
