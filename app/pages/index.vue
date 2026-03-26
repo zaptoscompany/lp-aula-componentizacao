@@ -5,6 +5,7 @@
     <SectionsVibeCoding />
     <SectionsMethodCoding />
     <SectionsPossibilities />
+    <SectionsCurriculum />
   </main>
 </template>
 
@@ -14,4 +15,5 @@ import SectionsMethod from '~/components/sections/Method.vue'
 import SectionsVibeCoding from '~/components/sections/VibeCoding.vue'
 import SectionsMethodCoding from '~/components/sections/MethodCoding.vue'
 import SectionsPossibilities from '~/components/sections/Possibilities.vue'
+import SectionsCurriculum from '~/components/sections/Curriculum.vue'
 </script>
